@@ -46,7 +46,7 @@ app.use((req, res, next) => {
     });
   } else {
     res.status(403).json({
-      error: 'Auth Token is not supplied',
+      error: 'Auth Token is not supplied1 ',
     });
   }
 });
